@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "./bin/cli.mjs build",
-    "dev": "./bin/cli.mjs dev"
+    "dev": "./bin/cli.mjs dev",
+    "prepare": "nitro prepare"
   },
   "author": "Daniel Roe <daniel@roe.dev>",
   "dependencies": {
